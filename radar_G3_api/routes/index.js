@@ -3,10 +3,6 @@ const router = express.Router();
 const ClientesControllers = require("../controllers/clientesControllers");
 const ProdutosControllers = require("../controllers/produtosControllers");
 
-
-
-
-
 /*Clientes*/
 router.get('/clientes', ClientesControllers.index);
 router.post('/clientes', ClientesControllers.create);
